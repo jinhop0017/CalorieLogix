@@ -2,14 +2,13 @@
 
 ## Calorie / Weight Tracker
 - This project is the **Calorie/Weight Tracker app**.
-What this application does is that the user is able to put 
-calories that the user consumed throughout the day, and it will give 
-the user the total calorie that they consumed that day. 
-The user can also put their weight so they can see how their weight has changed
-over time. Moreover, the user can view their previous entries so they can keep
-on track of previous weights and calories consumed. This app also has goals
-that the user wants to achieve such as daily calorie consumption goal or weight
-goal that they are trying to get to.
+CalorieLogix is a simple journal-style calorie tracker where one can create an "entry" that reflects what foods the user ate and its calories on a specific date that they choose for the entry.
+The user can then view all the entires they created as well as edit them such as removing/deleting foods from an entry.
+Furthermore, the user can save and load all the entries they created with a press of a button.
+This app uses an advanced "listOf listOf x" data type where there are listOfEntries, and for each entry there are listOfFoods that the user ate that day.
+What's special about this app is it's interactivity.
+For instance, when a user wants to delete an entry, they just need to press the "delete" button that is present on the listOfEntries view screen without having to type any information about the entry.
+Another example is that the user can view the foods and its calorie that they ate on an entry by toggling "view all food ate" button on the chosen entry, which will show a dropdown menu of all the foods and its calories the user consumed that day.
 
 - As for who will want to use this app, it's great for people who want to
 reach or maintain a certain weight, as well as those who are curious about their
